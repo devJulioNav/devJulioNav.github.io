@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-secondary">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">
+                <h2><i class="fas fa-code fa-6xl"></i> devJulioNav</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item"></li>
+                        <a class="nav-link text-light" href="./index.html">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Acerca-de-mi">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Mis-trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Contacto">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <header id="Hero-Section" class="text-light text-end py-0 mt-0">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/imgs/carousel1.png" class="d-block w-100" alt="imagen de desarrollador"> 
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/imgs/carousel2.jpg" class="d-block w-100" alt="imagen de diseños responsive">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/imgs/carousel3.png" class="d-block w-100" alt="imagen de contacto">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- SECCIÓN ACERCA DE MÍ -->
+    <section id="Acerca-de-mi" class="container text-center my-5">
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        <p class="my-4">
+            Conoce un poco más de mi perfil y aficiones. Multifacético, creativo y apasionado en cada proyecto que llevo a cabo.
+        </p>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fas fa-code fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Desarrollador eficaz</h3>
+                <p class="my-3">
+                    Caracterizado por la constante actualización en el mundo del desarrollo web, aplicando las buenas prácticas y las últimas tendencias en el sector. Comprometido al 100% en elaborar proyectos de calidad acordes a las necesidades de los clientes y siendo perfeccionista en cada detalles de los trabajos a presentar en el tiempo acordado.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-book fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Lector habitual</h3>
+                <p class="my-3">
+                    Amante de la lectura desde la niñez como hábito de vida buscando el conocimiento de diferentes temáticas y entretenimiento. También lo llevo a cabo como método autodidacta para aprender de herramientas en este secor y en otros campos de mi interés como Gestión, Marketing, Filosofía, Lógica, Geopolítica, entre otros.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-image fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Detallista visual</h3>
+                <p class="my-3">
+                    Profundo interés en mostrar recursos visuales de alta calidad según los objetivos y necesidad de los clientes que generen impacto en el público que accede a sus sitios web en la red. Trabajo al detalle y creatividad en todo el diseño del proyecto que se ejecuta cumpliendo con los patrones de diseño adecuados.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE MIS TRABAJOS -->
+    <section id="Mis-trabajos" class="my-5 p-5 bg-dark">
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/imgs/trabajo1.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Smartwatches Elite Store</h5>
+                        <p class="card-text">
+                            Este proyecto es una landing page de un negocio de producto tecnológico con fines publicitarios, Smartwatches Elite Store donde resalta el logo representativo del negocio, los principales productos describiendo los modelos, funciones más resaltante y precios en promoción. Este trabajo fue elaborado con HTML en la estructura y CSS puro para la apariencia visual.
+                        </p>
+                        <button type="button" class="btn btn-outline-secondary">
+                            <a href="https://github.com/devJulioNav/proyecto_smartwatches" target="_blank">Ver en Github</a>                           
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/imgs/trabajo2.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Iguanas Page</h5>
+                        <p class="card-text">
+                            Este proyecto es una landing page con fines informativos referente a las iguanas. La importancia, habitat, principales características de este reptil en el ecosistema con imagenes ilustrativas e invitación para visitar un sitio web con mayor información. Proyecto maquetado y estilizado con CSS, utilizando Flexbox eficazmente en párrafos y tarjetas distribuidas.
+                        </p>
+                        <button type="button" class="btn btn-outline-secondary">
+                            <a href="https://github.com/devJulioNav/proyecto_iguanas" target="_blank">Ver en Github</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/imgs/trabajo3.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cuppon Page</h5>
+                        <p class="card-text">
+                            El presente proyecto es una landing page de un negocio denominado CUPPON que ofrece promociones para los consumidores en los sectores turismo, gastronómico, entretenimiento, retail, entre otros. Este trabajo fue elaborado con Bootstrap para la maquetación y apariencia, personalizandolo en función al negocio y sus fines hacia su público objetivo.
+                        </p>
+                        <button type="button" class="btn btn-outline-secondary">
+                            <a href="https://github.com/devJulioNav/proyecto_cuppon" target="_blank">Ver en Github</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCIÓN DE CONTACTO -->
+    <section id="Contacto" class="container my-5">
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+        <p class="text-center my-4 d-none d-md-block">Ánimate a contactarme llenando este formulario para darte un asesoramiento personalizado a tus requerimientos y/o alguna oferta laboral. Estaré gustoso de atenderte.</p>
+        <form>
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-center">
+                <button class="btn btn-dark text-light px-4">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="text-center p-3 bg-secondary">
+        <a href="https://github.com/devJulioNav" target="_blank"><i class="fab fa-github fa-2x text-light"></i></a>
+        <a href="https://www.linkedin.com/in/julio-c%C3%A9sar-junior-navarrete-macedo-a91080227/" target="_blank"><i class="fab fa-linkedin fa-2x text-light mx-3"></i></a>
+        <a href="https://www.instagram.com/juliocnav/" target="_blank"><i class="fab fa-instagram fa-2x text-light"></i></a>
+        <p class="text-light mb-0">&copy;Julio César Navarrete - devJulioNav 2024. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

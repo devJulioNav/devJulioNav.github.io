@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mi Curriculum</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2><i class="fa-solid fa-code fa-6xl"></i> devJulioNav</h2>
+        </div>
+        <ul id="menuList">
+            <li><a href="./portafolio.html" target="_blank">Portafolio</a></li>
+            <li><a href="#datos">Datos Personales</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades">Habilidades Blandas</a></li>
+            <li><a href="#experiencia">Experiencia Laboral</a></li>   
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <header>  
+    <h1>Curriculum Vitae</h1>
+    <img src="./assets/imgs/foto_julio_navarrete.jpg" alt="Foto de Julio César Navarrete en fondo blanco" width="200" height="240" />
+    <h2>Julio César Navarrete</h2>
+    </header>
+    
+    <main>
+        <section>
+            <h3>Resumen</h3>
+            <p>Experiencia laboral con más de 10 años en ventas, atención al cliente y gestión en el área comercial brindando estrategias y soluciones efectivas con el propósito de construir relaciones sólidas con los clientes. Habilidades en proactividad, orientación a resultados, comunicación efectiva, resolución de conflictos, trabajo en equipo y adaptabilidad. Persona con sólidos valores éticos con capacidad para trabajar en entornos dinámicos en la consecución de resultados para la organización.</p>
+        </section>
+        <section>
+            <h3 id="datos">Datos Personales</h3>
+            <ul>
+                <li>Nombre completo: Julio César Junior Navarrete Macedo</li>
+                <li>Lugar de Nacimiento: Jesús María (Lima, Perú)</li>
+                <li>Fecha de Nacimiento: 7 de Junio de 1983</li>
+                <li>Estado civil: Soltero</li>
+                <li>Móvil: +51994768682</li>
+                <li>Correo electrónico: julionavam@hotmail.com</li>
+            </ul>
+        </section>
+        <section>
+            <h3 id="educacion">Educación</h3>
+            <h4>Superior</h4>
+                <p>Administración de Empresas en la Universidad Nacional Federico Villarreal</p>
+            <br>
+            <h4>Certificaciones</h4>
+                <ul>
+                    <li>Introducción a la Seguridad Cibernética en Cisco Networking Academy</li>
+                    <li>Microsoft Excel Expert en Cámara Peruana de Comercio Exterior</li>
+                    <li>Power BI en Cámara Peruana de Comercio Exterior</li>
+                    <li>Marketing Empresarial en Instituto Privado Zegel IPAE</li>
+                    <li>E-Commerce en Instituto Privado Zegel IPAE</li>
+                    <li>Diseño Gráfico en Instituto INICTEL-UNI</li>
+                </ul>
+        </section>
+        <section>
+            <h3 id="habilidades">Habilidades Blandas</h3>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Autoaprendizaje</li>
+                <li>Orientación a resultados</li>
+                <li>Proactividad</li>
+                <li>Adaptabilidad al cambio</li>
+            </ul>
+        </section>
+        <section>
+            <h3 id="experiencia">Experiencia Laboral </h3>
+            <ul>
+                <li>Trabajo independiente</li>
+                <li>Asistente Comercial en Andes Security SAC</li>
+                <li>Vendedor en Comercial EdiTech</li>
+                <li>Asistente de Afiliaciones en AFP Prima</li>
+                <li>Asesor de Ventas en RadioShack</li>
+                <li>Gestor Comercial en BG Perú SAC</li>
+                <li>Promotor en LG Electronics</li>
+                <li>Asistente de Sala en Casa & Ideas</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="bg-footer">
+        <a href="https://github.com/devJulioNav" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href="https://www.linkedin.com/in/julio-c%C3%A9sar-junior-navarrete-macedo-a91080227/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://www.instagram.com/juliocnav/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <p>&copy;Julio César Navarrete - devJulioNav 2024. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>
